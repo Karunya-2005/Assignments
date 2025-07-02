@@ -1,4 +1,4 @@
-package com.karunya.assignment1.employees;
+package com.karunya.assignment.employees;
 
 public class Developer extends Employee {
 	 private String primaryLanguage;
@@ -18,6 +18,6 @@ public class Developer extends Employee {
 		 return super.toString() + String.format(" [Developer: %s]",
 		 primaryLanguage);
 		 }
-		  
+		 
 
 }

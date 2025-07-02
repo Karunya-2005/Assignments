@@ -1,4 +1,7 @@
-package com.karunya.assignment1.employees;
+package com.karunya.assignment.utilities;
+import com.karunya.assignment.employees.Employee;
+import com.karunya.assignment.employees.Manager;
+import com.karunya.assignment.employees.Developer;
 
 public class EmployeeUtilities {
 	 public static void applyRaise(Employee emp, double percent) {
@@ -14,5 +17,4 @@ public class EmployeeUtilities {
 	 public static void switchLanguage(Developer dev, String newLang) {
 		 dev.setPrimaryLanguage(newLang);
 		 }
-
 }

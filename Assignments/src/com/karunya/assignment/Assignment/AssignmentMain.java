@@ -1,4 +1,7 @@
-package com.karunya.assignment1.employees;
+package com.karunya.assignment.Assignment;
+ import com.karunya.assignment.employees.Manager;
+ import com.karunya.assignment.employees.Developer;
+ import com.karunya.assignment.utilities.EmployeeUtilities;
 
 public class AssignmentMain {
 
@@ -18,4 +21,3 @@ public class AssignmentMain {
 	}
 
 }
-
